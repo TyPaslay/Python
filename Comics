@@ -1,6 +1,9 @@
-comics = ['hellboy', 'bprd', 'low', 'deadly class']
+#Create a list of comics and use an if statement to selectively capitalize appropriately
+comics = ['hellboy', 'bprd', 'low', 'deadly class', 'chew']
+print("My top five favorite comics are:")
 for comic in comics:
 	if comic == 'bprd':
 		print(comic.upper())
 	else:
 		print(comic.title())
+print("What are yours?")
