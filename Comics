@@ -1,0 +1,7 @@
+comics = ['hellboy', 'bprd', 'low', 'deadly class']
+if comic in comics == 'bprd':
+	print(comic.upper())
+else:
+	print(comic.title())
+for comic in comics
+	print(comic)
